@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name:       Copyright Date Block
- * Description:       Example block scaffolded with Create Block tool.
- * Version:           0.1.0
+ * Description:       First Block scaffold
+ * Version:           0.1.7
  * Requires at least: 6.8
  * Requires PHP:      7.4
- * Author:            The WordPress Contributors
+ * Author:            Brian Azukaeme
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       copyright-date-block
