@@ -29,16 +29,15 @@ import './editor.scss';
  *
  * @return {Element} Element to render.
  */
-export default function Edit(attributes) {
-	const {startingYear} = attributes;
-	const currentYear = new Date() .getFullYear() .toString();
-	return (
-		<p { ...useBlockProps() }>
-			{ __(
-				'Copyright',
-				'copyright-date-block'
-			) }
-			© { startingYear } - { currentYear }
-		</p>
-	);
+export default function Edit( { attributes } ) {
+    const { startingYear } = attributes;    const currentYear = new Date().getFullYear().toString();
+    return (
+        <p { ...useBlockProps() }>
+            { __(
+                'Copyright',
+                'copyright-date-block'
+            ) }
+            © { startingYear } - { currentYear }
+        </p>
+    );
 }

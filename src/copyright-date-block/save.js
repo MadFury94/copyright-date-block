@@ -15,8 +15,8 @@ import { useBlockProps } from '@wordpress/block-editor';
  *
  * @return {Element} Element to render.
  */
-export default function save(attributes ) {
-	const {startingYear} = attributes;
+export default function save( { attributes } ) {
+    const { startingYear } = attributes;
 	const currentYear = new Date().getFullYear().toString();
 	return (
 		
