@@ -33,9 +33,10 @@ export default function Edit() {
 	return (
 		<p { ...useBlockProps() }>
 			{ __(
-				'Copyright Date Bloc – hello from the editor!',
-				'copyright-date-bloc'
+				'Copyright',
+				'copyright-date-block'
 			) }
+			© 2019 - { currentYear }
 		</p>
 	);
 }

@@ -16,9 +16,11 @@ import { useBlockProps } from '@wordpress/block-editor';
  * @return {Element} Element to render.
  */
 export default function save() {
+	const currentYear = new Date().getFullYear().toString();
 	return (
+		
 		<p { ...useBlockProps.save() }>
-			{ 'Copyright Date Bloc – hello from the saved content!' }
+			{ 'Copyright' } © 2019 - { currentYear }
 		</p>
 	);
 }
