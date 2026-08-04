@@ -7,6 +7,12 @@
   "category": "widgets",
   "icon": "calendar",
   "description": "A Copyright Date block.",
+  "attributes": {
+    "startingYear": {
+      "type": "string",
+      "default": 2000
+    }
+  },
   "example": {},
   "supports": {
     "html": false

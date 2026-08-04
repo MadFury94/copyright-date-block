@@ -1,7 +1,7 @@
 <?php
 // This file is generated. Do not modify it manually.
 return array(
-	'copyright-date-bloc' => array(
+	'copyright-date-block' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
 		'name' => 'copyright-date/copyright-date-block',
@@ -10,6 +10,12 @@ return array(
 		'category' => 'widgets',
 		'icon' => 'calendar',
 		'description' => 'A Copyright Date block.',
+		'attributes' => array(
+			'startingYear' => array(
+				'type' => 'string',
+				'default' => 2000
+			)
+		),
 		'example' => array(
 			
 		),
