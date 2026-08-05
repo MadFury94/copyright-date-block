@@ -26,6 +26,7 @@ return array(
 		'textdomain' => 'copyright-date-block',
 		'editorScript' => 'file:./index.js',
 		'editorStyle' => 'file:./index.css',
-		'style' => 'file:./style-index.css'
+		'style' => 'file:./style-index.css',
+		'render' => 'file:./render.php'
 	)
 );
