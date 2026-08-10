@@ -1,7 +1,7 @@
 {
-	"name": "copyright-date-block",
-	"version": "0.1.0",
-	"description": "Brian's first Block tool",
+	"name": "brian-blocks",
+	"version": "1.0.0",
+	"description": "A collection of custom Gutenberg blocks by Brian Azukaeme.",
 	"author": "Brian Azukaeme",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
@@ -17,6 +17,7 @@
 	"dependencies": {
 		"@wordpress/block-editor": "latest",
 		"@wordpress/blocks": "latest",
+		"@wordpress/components": "latest",
 		"@wordpress/i18n": "latest"
 	},
 	"devDependencies": {

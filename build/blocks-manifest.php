@@ -1,19 +1,19 @@
 <?php
 // This file is generated. Do not modify it manually.
 return array(
-	'copyright-date-block' => array(
+	'copyright-date' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
-		'name' => 'copyright-date/copyright-date-block',
+		'name' => 'brian-blocks/copyright-date',
 		'version' => '0.1.0',
-		'title' => 'Copyright Date Block',
+		'title' => 'Copyright Date',
 		'category' => 'widgets',
 		'icon' => 'calendar',
-		'description' => 'A Copyright Date block.',
+		'description' => 'Displays a copyright notice with a configurable starting year.',
 		'attributes' => array(
 			'startingYear' => array(
 				'type' => 'string',
-				'default' => 2000
+				'default' => '2000'
 			)
 		),
 		'example' => array(
@@ -23,7 +23,7 @@ return array(
 			'html' => false,
 			'align' => true
 		),
-		'textdomain' => 'copyright-date-block',
+		'textdomain' => 'brian-blocks',
 		'editorScript' => 'file:./index.js',
 		'editorStyle' => 'file:./index.css',
 		'style' => 'file:./style-index.css',
